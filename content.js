@@ -29,18 +29,9 @@ function updateSameImage(el) {
 
 updateSourceImage(); // Applique la fonction
 
+function extractEmails ( text ){
+    return text.match(/([a-zA-Z0-9\._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)/gi);
+    }
+    console.log(extractEmails(document.body.innerHTML));
 
-
-// Tout ce qui suit ne sont que des tests n'y prêter pas attention
-// const ImageType = document.getElementsByTagName("img");
-// const ArrayOfImages = Array.from(ImageType);
-//
-// function updateSameImage(el) {
-//   el.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Grumpy_Cat_by_Gage_Skidmore.jpg/1024px-Grumpy_Cat_by_Gage_Skidmore.jpg";
-// }
-//
-// ArrayOfImages.forEach(updateSameImage);
-// document.getElementById("save").addEventListener("click",function(){
-//   reload()
-//   alert("L'eventlis marche");
-// });
+   
