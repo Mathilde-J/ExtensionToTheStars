@@ -1,4 +1,3 @@
-
 document.getElementById("save").onclick = function() {
   const value = document.getElementById("sourceImage").value;
 
@@ -10,10 +9,10 @@ document.getElementById("save").onclick = function() {
 
 
 //Bordel tests et documentation:
-// document.getElementById("save").addEventListener("click",function(){
-//   location.reload();
-//   console.log("L'eventlis marche");
-// });
+document.getElementById("save").addEventListener("click",function(){
+chrome.tabs.reload();
+console.log("L'eventlis marche");
+});
 // User data will be automatically synced with Chrome.
   // @see https://developer.chrome.com/apps/storage
 
