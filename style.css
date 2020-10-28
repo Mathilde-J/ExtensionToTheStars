@@ -1,8 +1,43 @@
-img{
+/* img{
   border: 5px solid red !important;
+} */
+*{
+  padding: 0%;
+  margin: 0%;
+  font-family: "poppins", sans-serif;
 }
 
-p{
-  font-family: Verdana, Times;
-  font-size: 2em;
+h1{
+  margin: 10px;
 }
+
+.containerurl{
+  min-width: 400px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}  
+.containerurl div{
+  width: 60%;
+} 
+
+.ImageUrl{
+  position: relative;
+}
+
+ #save{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: red;
+ 
+}
+
+input{
+  border: none;
+  padding: 10px 15px;
+  outline: none;
+}
+

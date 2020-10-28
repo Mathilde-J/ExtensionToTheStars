@@ -3,15 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>Colle l'url de ton image !</h1>
-    <textarea id="sourceImage" name="sourceImage"></textarea>
-    <input type="button" id="save" value="Go !">
-
-    <input type="button" id="fetch" value="Récupérer" >
-    <textarea id="email" cols="30" rows="10"></textarea>
+    <div class="containerurl">
+      <h1>Colle l'url de ton image !</h1>
+      <div class="ImageUrl">
+        <input type="text" id="sourceImage"  placeholder="Insérer votre URL" name="sourceImage"></textarea>
+        <input type="button" id="save" value="Go !">
+      </div>
+    
+      <div class="EmailFetch">
+        <input type="button" id="fetch" value="Récupérer" ><br>
+        <textarea id="email" cols="30" rows="10"></textarea>
+      </div>
+    </div>
+    
 
 
   </body>

@@ -1,13 +1,3 @@
-const TitleType = document.getElementsByTagName("h1"); //recupere les h1
-const ArrayOfTitle = Array.from(TitleType); // Créé un tableau avec les h1
-
-function updateFontColor(el) {
-  el.style.color = "green";
-}
-// change la couleur des h1
-
-ArrayOfTitle.forEach(updateFontColor); //applique la fonction sur tous les titres du tableau
-
 
 function updateSourceImage() {
   const ImageType = document.getElementsByTagName("img");
@@ -33,5 +23,8 @@ function extractEmails ( text ){
     return text.match(/([a-zA-Z0-9\._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)/gi);
     }
     console.log(extractEmails(document.body.innerHTML));
+    
+
+var Mailmail = extractEmails(document.body.innerHTML).toString();
 
    
