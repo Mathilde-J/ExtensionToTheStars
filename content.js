@@ -19,12 +19,11 @@ function updateSameImage(el) {
 
 updateSourceImage(); // Applique la fonction
 
+// fonction qui retourne tous les textes que match avec l'expression régulière entre parenthèses
 function extractEmails ( text ){
     return text.match(/([a-zA-Z0-9\._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)/gi);
-    }
-    console.log(extractEmails(document.body.innerHTML));
+}
+console.log(extractEmails(document.body.innerHTML));
     
-
-var Mailmail = extractEmails(document.body.innerHTML).toString();
 
    
