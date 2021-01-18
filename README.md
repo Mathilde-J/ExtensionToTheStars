@@ -1,4 +1,17 @@
 # ExtensionToTheStars
+
+Cette extension Google Chrome a 2 fonctionnalités, développées par deux groupes différents suite à un échange de code. La première est décrite plus bas.
+
+Nouvelle fonctionnalité :
+Récupérer toutes les adresses emails présentes sur une page web, et les afficher dans le popup de l'extension.
+
+Développée par :
+- Noémie Le Roux (@nonoleroux)
+- Mathilde Janssen (@Mathilde-J)
+- Manon Coulombe (@manon-coulombe)
+
+---------------------------------------------------------
+
 Une extension qui a pour but de relier ciel et terre
 Et ensuite terre et mer
 Exercice en groupe à l'Ada Tech School (niveau 2).
